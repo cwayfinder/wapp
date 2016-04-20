@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    header,
+    .forecast-current,
+    .extras {
+        flex-basis: 18%;
+    }
+
+    .detail-forecast {
+        flex-basis: 16%;
+    }
+}
+
+@media (min-width: 1024px) {
+    header,
+    .forecast-current,
+    .extras {
+        flex-basis: 19%;
+    }
+
+    .detail-forecast {
+        flex-basis: 22%;
+    }
+}
+

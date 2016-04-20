@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sunny4.css">
+    <link rel="stylesheet" href="css/pt-sans.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if IE]>
+    <link rel="stylesheet" href="css/oldStyle.css">
+    <link rel="stylesheet" href="css/styleIE.css">
+    <![endif]-->
+    <script src="script/index.js" async></script>
+</head>
+<body>
+<main class="wrapper">
+    <div class="wrapper-city">
+    <section class="forecast-content">
+        <header>
+            <div class="time">
+                <span>10:19</span>
+                <a href="#">
+                    <i class="icon icon-refresh"></i>
+                </a>
+            </div>
+
+            <h1 class="city">KHARKIV</h1>
+
+            <div class="forecast-today">
+                <span class="weekday">monday</span>,
+                <span class="data">november 3</span>
+            </div>
+        </header>
+
+        <section class="forecast-current">
+            <div class="current-weather">
+                <i class="icon icon-snow"></i>
+            </div>
+            <div class="current-temp">
+                <span class="deg">-2</span>
+                <span class="forecast-description">// mostly cloudy</span>
+            </div>
+            <div class="moon-info">
+                <i class="icon icon-almost-old"></i>
+                <span class="moonrise-time">6:20</span>
+            </div>
+        </section>
+
+        <ul class="detail-forecast">
+            <li>
+                <span class="hour">6:00</span>
+                <i class="icon icon-thunderstorm"></i>
+                <span class="temp deg">-2</span>
+            </li>
+            <li>
+                <span class="hour">7:00</span>
+                <i class="icon icon-sleet-rain"></i>
+                <span class="temp deg">0</span>
+            </li>
+            <li>
+                <span class="hour">8:00</span>
+                <i class="icon icon-cloudy"></i>
+                <span class="temp deg">-2</span>
+            </li>
+            <li>
+                <span class="hour">9:00</span>
+                <i class="icon icon-sunny"></i>
+                <span class="temp deg">0</span>
+            </li>
+        </ul>
+
+        <ul class="extras">
+            <li class="humidity">
+                <i class="icon icon-humidity"></i>
+                <span>50%</span>
+            </li>
+            <li class="wind-speed">
+                <i class="icon icon-wind-direction"></i>
+                <span>5<sup>m/c</sup></span>
+            </li>
+            <li class="sunrise">
+                <i class="icon icon-sunrise"></i>
+                <span>6:20</span>
+            </li>
+            <li class="sunset">
+                <i class="icon icon-sunset"></i>
+                <span>16:20</span>
+            </li>
+        </ul>
+    </section>
+
+    <ul class="week-forecast">
+        <li class="week-forecast-item">
+            <span class="day">today</span>
+            <i class="icon icon-heavy-snow"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">-2</span>
+
+                <div class="decor"></div>
+                <span class="max-temp  deg">8</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">tue</span>
+            <i class="icon icon-sleet-rain"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">2</span>
+
+                <div class="decor"></div>
+                <span class="max-temp deg">12</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">wed</span>
+            <i class="icon icon-sunny"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp  deg">-3</span>
+
+                <div class="decor"></div>
+                <span class="max-temp  deg">6</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">thu</span>
+            <i class="icon icon-thunderstorm"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">-2</span>
+
+                <div class="decor"></div>
+                <span class="max-temp deg">7</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">fri</span>
+            <i class="icon icon-partly-cloudy"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">-4</span>
+
+                <div class="decor"></div>
+                <span class="max-temp deg">5</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">sat</span>
+            <i class="icon icon-dust"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">-2</span>
+
+                <div class="decor"></div>
+                <span class="max-temp deg">10</span>
+            </div>
+        </li>
+        <li class="week-forecast-item">
+            <span class="day">sun</span>
+            <i class="icon icon-fog"></i>
+
+            <div class="temp-difference">
+                <span class="min-temp deg">-3</span>
+
+                <div class="decor"></div>
+                <span class="max-temp deg">9</span>
+            </div>
+        </li>
+    </ul>
+        </div>
+
+    <aside class="side-bar">
+        <section class="side-bar-header">
+            <a href="#" class="icon icon-menu"></a>
+            <input class="search-new-city" type="text">
+            <i class="icon icon-add"></i>
+            <i class="icon icon-delete"></i>
+            <i class="icon icon-check hide-icon"></i>
+        </section>
+        <section class="cities-list-container">
+            <ul class="cities-list">
+                <li>
+                    <div class="city-forecast">
+                        <i class="icon icon-sunny"></i>
+                        <span class="city-temp deg">32</span>
+
+                        <div class="place-info">
+                            <span class="city-name">Denpasar</span>
+                            <span class="forecast-description">// mostly sunny</span>
+                        </div>
+                    </div>
+                    <label class="place-elect">
+                        <input type="checkbox">
+                        <span></span>
+                    </label>
+                </li>
+                <li>
+                    <div class="city-forecast">
+                        <i class="icon icon-thunderstorm"></i>
+                        <span class="city-temp deg">29</span>
+
+                        <div class="place-info">
+                            <span class="city-name">Male</span>
+                            <span class="forecast-description">// thunderstorm</span>
+                        </div>
+                    </div>
+                    <label class="place-elect">
+                        <input type="checkbox">
+                        <span></span>
+                    </label>
+                </li>
+                <li>
+                    <div class="city-forecast">
+                        <i class="icon icon-sleet-rain"></i>
+                        <span class="city-temp deg">32</span>
+
+                        <div class="place-info">
+                            <span class="city-name">Thiruvananthapuram</span>
+                            <span class="forecast-description">// rain</span>
+                        </div>
+                    </div>
+                    <label class="place-elect">
+                        <input type="checkbox">
+                        <span></span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="settings">
+            <section class="settings-header">
+                <div class="units">
+                    <input id="celsius" type="radio" name="degree" value="celsius" checked>
+                    <label for="celsius">C</label>
+                    <input id="fahrenheit" type="radio" name="degree" value="fahrenheit">
+                    <label for="fahrenheit">F</label>
+                </div>
+                <i class="icon icon-settings"></i>
+            </section>
+
+            <section class="show-days settings-bar">
+                <span class="settings-description">show weather for</span>
+                <span>3 days</span>
+                <img src="images/settings-line.png">
+            </section>
+
+            <section class="update-min settings-bar">
+                <span class="settings-description">update weather every</span>
+                <span>15 min</span>
+                <img src="images/settings-line.png">
+            </section>
+        </section>
+    </aside>
+
+    <section class="sun-container">
+        <section class="sun"></section>
+    </section>
+</main>
+</body>
+</html>

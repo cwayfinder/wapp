@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "PT Sans Caption";
+    src: url("../fonts/PT-Sans/PTC55F.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans Caption";
+    src: url("../fonts/PT-Sans/PTC75F.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans Narrow";
+    src: url("../fonts/PT-Sans/PTN57F.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans Narrow";
+    src: url("../fonts/PT-Sans/PTN77F.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PT-Sans/PTS56F.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PT-Sans/PTS75F.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PT-Sans/PTS75F.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PT-Sans/PTS76F.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
