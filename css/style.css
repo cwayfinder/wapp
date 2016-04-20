@@ -8,7 +8,7 @@ body,
     height: 100%;
 }
 
-.wrapper {
+body {
     background: #166eef;
 }
 
@@ -38,6 +38,16 @@ body {
 .wrapper {
     padding: 1em 0;
     position: relative;
+}
+
+.cities-container {
+    background: darkgrey;
+    width: 100%;
+}
+
+.cities-container .slick-dots {
+    position: fixed;
+    bottom: 50px;
 }
 
 .forecast-content {
@@ -962,8 +972,11 @@ header {
         padding: 0.42em 1.875em;
     }
 
+    .cities-container {
+        width: 935px;
+    }
+
     .wrapper-city {
-        min-width: 935px;
         justify-content: space-between;
     }
 
@@ -1061,8 +1074,8 @@ header {
         padding: 0.5em 0 0 0.625em;
     }
 
-    .wrapper-city {
-        min-width: 64.85%;
+    .cities-container {
+        width: 64.85%;
     }
     .forecast-content {
         flex-basis: 48%;
