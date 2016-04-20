@@ -1,0 +1,21 @@
+{
+  "name": "wapp",
+  "homepage": "https://github.com/cwayfinder/wapp",
+  "authors": [
+    "Taras Hupalo <taras.hupalo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.5.9"
+  }
+}
