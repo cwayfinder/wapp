@@ -23,11 +23,9 @@
 }
 
 .side-bar-header .icon {
-    font-size: 1em;
 }
 
 .icon-menu {
-    font-size: 1em;
     transition: left 0.5s linear;
     position: absolute;
     left: -40px;
@@ -151,7 +149,6 @@
 }
 
 .units label {
-    font-size: 1em;
     color: rgba(255, 255, 255, 0.25);
 }
 
