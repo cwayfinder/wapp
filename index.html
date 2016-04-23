@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/pt-sans.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider-overrides.css">
+    <link rel="stylesheet" href="css/background.css">
     <!--[if IE]>
     <link rel="stylesheet" href="css/oldStyle.css">
     <link rel="stylesheet" href="css/styleIE.css">
@@ -25,7 +26,7 @@
 <body>
 <main class="wrapper">
     <div class="cities-container">
-        <div class="wrapper-city">
+        <div class="wrapper-city cloudy">
             <section class="forecast-content">
                 <header>
                     <div class="time">
@@ -181,7 +182,7 @@
             </ul>
         </div>
 
-        <div class="wrapper-city">
+        <div class="wrapper-city sunny">
             <section class="forecast-content">
                 <header>
                     <div class="time">
@@ -565,6 +566,141 @@
                     <span></span>
                 </label>
             </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <div class="city-forecast">
+                    <i class="icon icon-sleet-rain"></i>
+                    <span class="city-temp deg">32</span>
+
+                    <div class="place-info">
+                        <span class="city-name">Thiruvananthapuram</span>
+                        <span class="forecast-description">// rain</span>
+                    </div>
+                </div>
+                <label class="place-elect">
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </li>
         </ul>
     </section>
 
@@ -605,6 +741,14 @@
             dots: true,
             infinite: true
         });
+
+        $('.cities-container').on('afterChange', function(event, slick, currentSlide) {
+            console.log(currentSlide);
+
+            var element = document.querySelector('.wrapper');
+            element.classList.add(currentSlide % 2 === 0 ? 'evening' : 'night-time');
+            element.classList.remove(currentSlide % 2 !== 0 ? 'evening' : 'night-time');
+        })
     });
 </script>
 
