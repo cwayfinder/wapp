@@ -273,6 +273,7 @@
         width: 49%;
         right: -49%;
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
     .side-bar-header {
@@ -320,12 +321,6 @@
 }
 
 @media (min-width: 1024px) {
-    .side-bar {
-        width: 49%;
-        right: -49%;
-        flex-wrap: nowrap;
-    }
-
     .side-bar-header {
         padding: 0.5em 1.15em 0.7em;
     }
@@ -361,7 +356,6 @@
 
     .icon-menu {
         left: -35px;
-
     }
 
     .active-icon-menu {
