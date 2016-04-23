@@ -1,0 +1,9 @@
+body {
+    background: #166eef;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 28px;
+    }
+}
