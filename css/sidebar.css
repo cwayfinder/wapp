@@ -71,14 +71,11 @@
 .cities-list-container {
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 1.5em;
 }
 
 .city-list-wrapper {
     overflow-y: auto;
-}
-
-.cities-list {
-    padding: 0 0 0 1.5em;
 }
 
 .cities-list li {
@@ -136,13 +133,13 @@
     bottom: 0;
     width: 100%;
     background: #152132;
+    padding: 0 0 0 1.5em;
 }
 
 .settings-header {
     display: flex;
     justify-content: space-between;
     padding: 1.25em 0.75em 1em 0;
-    margin-left: 0.5em;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -177,7 +174,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1em 1em 1em 0;
-    margin-left: 0.5em;
 }
 
 .show-days {
