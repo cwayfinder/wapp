@@ -269,6 +269,16 @@
     body {
         font-size: 28px;
     }
+
+    .icon-menu {
+        font-size: 1.2em;
+        left: -45px;
+    }
+
+    .active-icon-menu {
+        left: 35px;
+    }
+
     .side-bar {
         width: 49%;
         right: -49%;
@@ -321,6 +331,15 @@
 }
 
 @media (min-width: 1024px) {
+    .icon-menu {
+        left: -35px;
+        top: 15px;
+    }
+
+    .active-icon-menu {
+        left: 35px;
+    }
+
     .side-bar-header {
         padding: 0.5em 1.15em 0.7em;
     }

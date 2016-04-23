@@ -476,68 +476,6 @@ header {
         height: 4em;
         margin: 0.5em 0;
     }
-
-    .side-bar {
-        max-height: 100%;
-        right: -100%;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-
-    }
-
-    .side-bar-header {
-        width: 57%;
-        padding: 0.5em 0.75em 1em;
-    }
-
-    .cities-list-container {
-        width: 57%;
-        padding: 0;
-
-    }
-
-    .cities-list {
-        padding-right: 0.85em;
-    }
-
-    .cities-list li {
-        padding: 0.5em;
-    }
-
-    .city-temp {
-        margin: 0 1em 0 0.25em;
-    }
-
-    .settings {
-        width: 43%;
-        height: 100%;
-    }
-
-    .settings-header {
-        padding: 0.65em 0 0.8em;
-        margin-left: 1em;
-    }
-
-    [for="celsius"] {
-        padding-right: 1.85em;
-    }
-
-    .icon-settings {
-        padding-right: 0.9em;
-    }
-
-    .settings-bar {
-        padding: 1.85em 16% 1.2em 0.5em;
-        margin: 0 0 0 7%;
-    }
-
-    .settings-bar img {
-        width: 11.8em;
-        height: 0.7em;
-        margin-top: 0.7em;
-    }
-
 }
 
 @media (min-width: 768px) {
@@ -644,68 +582,6 @@ header {
         height: 0.83em;
         margin: 0.5em;
     }
-
-     .icon-menu {
-        font-size: 1.2em;
-        left: -45px;
-    }
-
-     .active-icon-menu {
-        left: 35px;
-    }
-
-    .side-bar {
-        width: 49%;
-        right: -49%;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .side-bar-header {
-        width: 100%;
-        padding: 0.54em 1em 0.83em;
-    }
-
-    .search-new-city {
-        margin: 0 0.5em 0 2em;
-    }
-
-    .cities-list-container {
-        width: 100%;
-    }
-
-    .cities-list {
-
-        padding: 0 0 0 1.43em;
-    }
-
-    .cities-list li {
-        padding: 0.625em 0.625em 0.3em 0;
-    }
-
-    .settings {
-        width: 100%;
-        height: auto;
-    }
-
-    .settings-header {
-        padding: 1.125em 0.5em 1.08em;
-        margin-left: 1em;
-    }
-
-    .settings-bar {
-        padding: 1em 2.625em 1em 0.5em;
-        margin: 0 0 0 1em;
-    }
-
-    .settings-bar img {
-        width: 11.2em;
-        margin-top: 0.3em;
-    }
-
 }
 
 @media (min-width: 1024px) {
@@ -769,45 +645,6 @@ header {
 
     .day {
         width: 4.75em;
-    }
-
-     .icon-menu {
-        left: -35px;
-        top: 15px;
-    }
-
-     .active-icon-menu {
-        left: 35px;
-    }
-
-    .side-bar {
-        width: 49%;
-        right: -49%;
-        -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-
-    .side-bar-header {
-        padding: 0.5em 1.15em 0.7em;
-    }
-
-    .cities-list li {
-        padding: 0.58em 1.25em 0.3em 0.5em;
-    }
-
-    .cities-list {
-        padding: 0 0 0 1.3em;
-    }
-
-    .settings-bar {
-        padding-left: 1em;
-    }
-
-    .settings-bar img {
-        width: 16.375em;
-        height: 0.95em;
-        margin-top: 0.47em;
     }
 }
 
@@ -873,40 +710,5 @@ header {
 
     .week-forecast-item {
         padding: 0.25em 0 0.25em;
-    }
-
-    .side-bar {
-        width: 33%;
-        right: -33%;
-    }
-
-    .side-bar-header {
-        padding: 0.5em 1.7em;
-    }
-
-    .icon-menu {
-        left: -35px;
-
-    }
-
-    .active-icon-menu {
-        left: 25px;
-        top: 15px;
-    }
-
-    .cities-list {
-        padding: 0 0 0 0.75em;
-    }
-
-    .cities-list li {
-        padding: 0.8em 1.45em 0.8em 0;
-    }
-
-    .settings-bar {
-        padding: 1em 2em 2em 0.5em;
-    }
-
-    .settings-bar img {
-        width: 13.95em;
     }
 }
