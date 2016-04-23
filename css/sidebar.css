@@ -16,11 +16,7 @@
 }
 
 .side-bar-header {
-    height: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
-    display: -ms-flexbox;
     justify-content: space-between;
     padding: 0.5em 0.9em 1em;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
@@ -73,31 +69,27 @@
 }
 
 .cities-list-container {
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.city-list-wrapper {
     overflow-y: auto;
-    flex: 1;
 }
 
 .cities-list {
-    overflow-y: scroll;
     padding: 0 0 0 1.5em;
 }
 
 .cities-list li {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
-    display: -ms-flexbox;
     justify-content: space-between;
     padding: 0.5em 0.75em .75em;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .city-forecast {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
-    display: -ms-flexbox;
 }
 
 .cities-list .icon {
