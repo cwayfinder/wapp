@@ -45,11 +45,6 @@ body {
     width: 100%;
 }
 
-.cities-container .slick-dots {
-    position: fixed;
-    bottom: 50px;
-}
-
 .forecast-content {
     padding: 0 2.75em;
     margin-bottom: 0.75em;
