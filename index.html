@@ -717,8 +717,9 @@
 
         <section class="show-days settings-bar">
             <span class="settings-description">show weather for</span>
-            <span>3 days</span>
-            <img src="images/settings-line.png">
+            <span><span class="number">3</span> days</span>
+            <!--<img src="images/settings-line.png">-->
+            <div class="show-weather-slider"></div>
         </section>
 
         <section class="update-min settings-bar">
@@ -734,21 +735,32 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 
+<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+
 <script>
     $(document).ready(function(){
         $('.cities-container').slick({
             arrows: false,
             dots: true,
             infinite: true
-        });
-
-        $('.cities-container').on('afterChange', function(event, slick, currentSlide) {
+        }).on('afterChange', function(event, slick, currentSlide) {
             console.log(currentSlide);
 
             var element = document.querySelector('.wrapper');
             element.classList.add(currentSlide % 2 === 0 ? 'evening' : 'night-time');
             element.classList.remove(currentSlide % 2 !== 0 ? 'evening' : 'night-time');
-        })
+        });
+
+
+        $('.show-weather-slider').slider({
+            value: 3,
+            min: 0,
+            max: 7,
+            step: 1,
+            range: 'min'
+        }).on('slide', function(event, ui) {
+            document.querySelector('.settings .show-days .number').textContent = ui.value;
+        });
     });
 </script>
 

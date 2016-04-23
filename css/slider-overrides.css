@@ -4,3 +4,29 @@
     bottom: 50px;
 }
 
+
+
+
+.ui-slider {
+    height: 4px;
+    background: #0A1019;
+    margin: 16px 0;
+}
+
+.ui-slider .ui-slider-range {
+    background: #FC441E;
+    height: 4px;
+}
+
+.ui-slider .ui-slider-handle {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    position: relative;
+    top: -13px;
+    margin-left: -11px;
+
+    background: #081322;
+    border: 5px white solid;
+    border-radius: 50%;
+}
