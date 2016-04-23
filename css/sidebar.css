@@ -77,6 +77,8 @@
 .city-list-wrapper {
     /* This is required for perfect scrollbar */
     position: relative;
+
+    overflow-y: auto;
 }
 
 .cities-list li {
